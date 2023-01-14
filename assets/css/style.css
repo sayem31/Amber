@@ -1,0 +1,2244 @@
+/****
+ Template Name : AMBER - HTML Template
+ Template URL  : http://Coderitsolution
+ Author 	   : Coder IT Solution
+ Author URL    : http://Coderitsolution
+ Description   : AMBER HTML Template
+ Keywords	   : HTML, CSS, js
+****/
+
+html{
+	font-size:65.5%;
+}
+body{
+	margin:0;
+	font-family: 'Oxygen', sans-serif;
+	font-size:1.4rem;
+	font-weight:400;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+p{
+	font-weight:400;
+	color:#3b4954;
+	font-size:1.8rem;
+	line-height:3rem;
+}
+h1{
+	font-weight:300;
+	font-size:6rem;
+	color:#fff;
+}
+h2{
+	color:#3b4954;
+	font-weight:300;
+	font-size:3.5rem;
+}
+h3{
+	color:#FFF;
+	font-weight:300;
+	font-size:1.5rem;
+
+}
+h4{
+	font-size:2rem;
+	font-weight:400;
+	color:#000;
+}
+
+	/*button style*/
+
+.btn-style-1{
+	border:0.2rem solid #02baab;
+	padding:0.8rem 1.5rem;
+	color:#02baab;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:1.5rem;
+	display:inline-block;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.btn-style-1:hover{
+	background:#02baab;
+	color:#FFF;
+}
+.btn-style-2{
+	border:0.2rem solid #02baab;
+	padding:0.8rem 1.5rem;
+	background:#02baab;
+	color:#FFF;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:1.5rem;
+	display:inline-block;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.btn-style-2:hover{
+	background:transparent;
+	color:#02baab;
+}
+.section-padding{
+	padding:8rem 0;
+}
+.nav-icon{
+	display:none;
+}
+  /***************************************************/
+ /*--========= 1.Start Header Top Area CSS ========-*/
+/***************************************************/
+
+.header-top-area {
+	background: #000;
+	padding: 1rem 0;
+}
+.top-search {
+	max-width:25rem;
+	width: 100%;
+	position: relative;
+}
+.top-search input[type="search"]{
+	background:transparent;
+	color:#FFF;
+	border:0.1rem solid #434a50;
+	width:100%;
+	padding:0.5rem 1rem;
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.top-search input[type="search"]:focus{
+	background:#FFF;
+	color:#6e7a84;
+}
+
+.top-search button[type="submit"] {
+	position: absolute;
+	top:0.5rem;
+	right: 0.5rem;
+	background: transparent;
+	color: #6e7a84;
+	border: none;
+	font-size: 1.8rem;
+}
+.top-search button[type="submit"]:focus{
+	outline:none;
+}
+.top-right-link{
+
+}
+.top-right-link ul{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+}
+.top-right-link ul li a{
+	margin-left:3.5rem;
+	color:#85939f;
+	display:inline-block;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.top-right-link ul li a:hover{
+	color:#FFF;
+}
+.top-right-link ul li a i {
+	font-size: 2rem;
+	padding-right: 1rem;
+}
+  /************************************************/
+ /*--==========End Header Top Area CSS=========--*/
+/************************************************/
+
+  /***************************************************/
+ /*--========= 2. Start Header Area CSS===========--*/
+/***************************************************/
+.header-area {
+	background: #312727;
+}
+.menu{}
+.menu ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:end;
+	    -ms-flex-pack:end;
+	        justify-content:flex-end;
+}
+.menu ul li{}
+.menu ul li a{
+	display:block;
+	padding:3rem 2rem;
+	color:#FFF;
+	text-transform:uppercase;
+	border-top:1rem solid red;
+	-webkit-transition:0.5s;
+	-o-transition:0.5s;
+	transition:0.5s;
+}
+.menu ul li:nth-child(1) a{
+	border-color:#ffae00;
+}
+.menu ul li:nth-child(1) a:hover{
+	background:#ffae00;
+}
+.menu ul li:nth-child(2) a{
+	border-color:#fc7100;
+}
+.menu ul li:nth-child(2) a:hover{
+	background:#fc7100;
+}
+.menu ul li:nth-child(3) a{
+	border-color:#e51c5e;
+}
+.menu ul li:nth-child(3) a:hover{
+	background:#e51c5e;
+}
+.menu ul li:nth-child(4) a{
+	border-color:#ae0f8d;
+}
+.menu ul li:nth-child(4) a:hover{
+	background:#ae0f8d;
+}
+.menu ul li:nth-child(5) a{
+	border-color:#6d0fae;
+}
+.menu ul li:nth-child(5) a:hover{
+	background:#6d0fae;
+}
+.menu ul li:nth-child(6) a{
+	border-color:#33227a;
+}
+.menu ul li:nth-child(6) a:hover{
+	background:#33227a;
+}
+.menu ul li:nth-child(7) a{
+	border-color:#0c8fcc;
+}
+.menu ul li:nth-child(7) a:hover{
+	background:#0c8fcc;
+}
+  /***************************************************/
+ /*--=============End Header Area CSS=============--*/
+/***************************************************/
+
+  /*****************************************************/
+ /*--========= 3. Start Header Banner CSS===========--*/
+/*****************************************************/
+.single-banner-item{
+	text-align:center;
+	padding:25rem 0 15rem 0;
+	position:relative;
+}
+.single-banner-item:before{
+	content:'';
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+	position:absolute;
+}
+.banner-text{
+	position:relative;
+	z-index:11;
+}
+.banner-text h1:first-child{
+	color:#02baab;
+}
+.buttons{
+	margin-top:9rem;
+}
+.buttons ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.buttons ul li{
+	margin:0 1.2rem;
+}
+.banners .owl-dots {
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+	right: 0;
+}
+.banners.owl-theme .owl-dots .owl-dot span {
+	width: 3rem !important;
+	height: 0.5rem !important;
+	/*margin: 5px 7px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;*/
+	border-radius: 0 !important;
+}
+.banners.owl-theme .owl-dots .owl-dot.active span{
+	background:#02baab;
+}
+
+  /*****************************************************/
+ /*--=============End Header Banner CSS=============--*/
+/*****************************************************/
+
+  /*******************************************************/
+ /*--============ 4. Start Month area css=============--*/
+/*******************************************************/
+.section-title {
+	text-align: center;
+	margin-bottom:3rem;
+}
+.section-title h2{
+	position:relative;
+	padding-bottom:3rem
+}
+.section-title h2:after{
+	content:'';
+	position:absolute;
+	width:50px;
+	height:5px;
+	background:#eeeeee;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+.month p {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 3.5rem;
+}
+  /*******************************************************/
+ /*--=============== End Month area css===============--*/
+/*******************************************************/
+
+  /*******************************************************/
+ /*--============= 5. Start Work area css=============--*/
+/*******************************************************/
+.single-work{
+	position:relative;
+}
+.work-img{
+	width:100%;
+	height:220px;
+}
+.work-img img{
+	width:100%;
+	height:100%;
+	-o-object-fit:cover;
+	   object-fit:cover;
+}
+.work-content{
+	background:#3d3d3d;
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+	padding:2rem;
+}
+.work-content p{
+	color:#02baab;
+	font-weight:300;
+	font-size:1.1rem;
+	margin:0;
+}
+.work-content p a{
+	color:#02baab;
+}
+/*overly css*/
+.work-overly{
+	position:absolute;
+	left:0;
+	top:-100%;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+.work-overly ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100%;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.work-overly ul li a {
+	background: #02baab;
+	color: #FFF;
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 2.2rem;
+	line-height: 4.3rem;
+	margin: .5rem 0;
+}
+.single-work:hover .work-overly{
+	visibility:visible;
+	top:0;
+	opacity:1;
+	cursor:pointer;
+}
+
+.work-area .owl-prev,
+.work-area .owl-next{
+	font-size: 36px !important;
+	color:#FFF !important;
+	background:transparent !important;
+	outline:none;
+}
+.work-area .owl-theme .owl-nav {
+	/* margin-top: 10px; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top:0;
+}
+  /*******************************************************/
+ /*--=================End Work area css===============--*/
+/*******************************************************/
+
+  /*****************************************************/
+ /*--============== 6. Star Amber area css============*/
+/*****************************************************/
+.header-purchase-area{
+	background:#02baab;
+	padding:5rem 0;
+}
+.hero{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:justify;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+}
+.hero h1{
+	color:#FFF;
+	font-size:25px;
+	font-weight:400;
+}
+.header-purchase-area .btn-style-3{
+	border:2px solid #FFF;
+	color:#FFF;
+}
+.header-purchase-area .btn-style-1:hover{
+	background:#FFF;
+	color:#02baab;
+}
+  /***************************************************/
+ /*--=================End Amber area css=============*/
+/****************************************************/
+
+  /*****************************************************/
+ /*--========== 7. Star Features Area css=============*/
+/*****************************************************/
+.features-row{
+	margin-top: 5rem;
+}
+.single-fratures {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 3rem;
+}
+.features-icon{
+	-webkit-box-flex:0;
+	    -ms-flex:0 0 15%;
+	        flex:0 0 15%;
+}
+.features-icon i{
+	color:#02baab;
+	font-size:3rem;
+}
+.features-content h4{
+	font-size:2rem;
+	font-weight:400;
+	color:#000;
+	margin-bottom: 1rem;
+}
+.features-content p{
+	width:85%;
+	font-weight:300;
+	font-size:1.4rem;
+	color:#3b4954;
+}
+
+  /*********************************************************/
+ /*--=================End Features Area css===============*/
+/*********************************************************/
+
+  /*******************************************************************/
+ /*--================= 8. Start Testimolials area css===============*/
+/*******************************************************************/
+
+.testimonials-area{
+	background:url(../images/testimonial.jpg) no-repeat scroll 0 0 / cover;
+}
+.single-testimonil{	
+}
+.single-testimonil img{
+	width:auto !important;
+	height:auto;
+	margin:auto;
+}
+.single-testimonil h1 {
+	font-size: 2.2rem;
+	font-weight: 300;
+	color: #fff;
+	width: 55%;
+	line-height: 3rem;
+	margin:3rem auto 2rem auto;
+}
+.single-testimonil p{
+	color:#02baab;
+	font-size:1.4rem;
+	font-weight:300px;
+	text-transform: uppercase;
+}
+.testimonials-area .owl-dot.active span{
+	background:#02baab !important;
+	outline:none !important;
+}
+  /**************************************************************/
+ /*--================= End Testimolials area css===============*/
+/**************************************************************/
+
+  /***********************************************************/
+ /*--================= 9. Start Blog area css===============*/
+/***********************************************************/
+.sigle-blog-item{
+	border-bottom:.1rem solid #c3c3c3;
+	padding-bottom:3rem;
+}
+.blog-img{
+	height:20.1rem;
+}
+.blog-img img{
+	width:100%;
+	height:100% ;
+	-o-object-fit:cover;
+	   object-fit:cover;
+}
+.bolog-content{
+
+}
+.blog-content h4 {
+	font-size: 2.4rem;
+	font-weight: 300;
+	color: #02baab;
+	padding: 2rem 0;
+	line-height: 3.5rem;
+}
+.blog-content p{
+	font-size:1.4rem;
+	font-weight:300;
+	color:#555555;
+	line-height:3rem;
+}
+.blog-content ul{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:justify;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+	margin-top:1.5rem;
+}
+.blog-content ul li {
+	color:#3b4954;
+	font-size:1.4rem;
+	font-weight:300;
+}
+.blog-content ul li a{
+	font-size:1.4rem;
+	font-weight:300;
+	color:#02baab;
+}
+.blog-content ul li a:hover{
+	color:#000;
+	-webkit-transition:.3s;
+	-o-transition:.3s;
+	transition:.3s;
+}
+.blog-content ul li i{
+	color:#02baab;
+	padding-right:1rem;
+	font-size:1.7rem;
+}
+  /******************************************************/
+ /*--================= End Blog area css===============*/
+/******************************************************/
+
+  /******************************************************************/
+ /*--================= 10. Start Expirience area css===============*/
+/******************************************************************/
+.knob-row{
+	margin-top:3rem;
+}
+.single-knob-item{
+	position:relative;
+}
+.single-knob-item::after {
+	content: url(../images/dots.png);
+	position: absolute;
+	top: 95px;
+	right: -40px;
+}
+.expirience-area .col-md-4:last-child .single-knob-item:after{
+	display:none;
+}
+.expirience-area{
+	background:#02baab;
+}
+.expirience-area .section-title h2{
+	color:#FFF;
+}
+.item-circle .pie_progress__content i {
+	width: 90px;
+	height: 90px;
+	background: #000;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 40px;
+	line-height: 95px;
+}
+.item-circle .pie_progress{
+	width:210px;
+	margin:auto;
+}
+.item-circle .pie_progress__svg ellipse {
+	stroke: #35c8bc !important; 
+}
+.item-content1 {
+	text-align: center;
+	margin-top:3rem;
+}
+.item-content1 h1{
+	font-size:4rem;
+	font-weight:300;
+	color:#fff;
+}
+.item-content1 p{
+	font-size:1.8rem;
+	font-weight:300;
+	color:#fff;
+
+}
+  /************************************************************/
+ /*--================= End Expirience area css===============*/
+/************************************************************/
+
+  /************************************************************/
+ /*--================= 11. Start Team area css===============*/
+/************************************************************/
+.tram-row{
+	margin-top: 3rem;
+}
+.team-img{
+	height:200px;
+}
+.sigle-team{
+	transition:.5s;
+}
+.sigle-team:hover .team-img {
+	width: 100%;
+	height: 360px;
+	object-fit: cover;
+}
+.sigle-team:hover .team-content{
+	display:none;
+}
+.team-img img{
+	width:100%;
+	height:100%;
+	-o-object-fit:cover;
+	   object-fit:cover;
+}
+.team-name {
+	border: 1px solid #eeeeee;
+	text-align: center;
+	-webkit-transform: translatey(-50%);
+	    -ms-transform: translatey(-50%);
+	        transform: translatey(-50%);
+	background: #fff;
+	display: inline-block;
+	width: 75%;
+	padding: 8px 0;
+}
+.team-name h4{
+	font-size:1.4rem;
+	font-weight:400;
+	color:#02baab;
+	padding-top:1rem;
+}
+.team-name p{
+	font-size:1.2rem;
+	font-weight:400;
+	color:#c4c4c4;
+	margin:0;
+}
+
+.team-content{
+	text-align: center;
+	border:1px solid #eeee;
+	border-top:none;
+}
+.team-content > p {
+	font-size:1.2rem;
+	font-weight: 300;
+	width: 77%;
+	margin: auto;
+	line-height: 2.4rem;
+
+}
+.team-content a{
+	margin: 25px 40px;
+	display: block;
+}
+  /******************************************************/
+ /*--================= End Team area css===============*/
+/******************************************************/
+
+
+	/******************************************************/
+ /*--============= Start Typography page css===========*/
+/******************************************************/
+
+/*****************************************************/
+ /*--========= 3. Start Blog-Grid Banner CSS========--*/
+/*****************************************************/
+.blog-bg{
+	padding:13rem 0 5rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog_item1{
+	position: relative;
+	z-index: 11;
+	display: flex;
+	flex-direction: column;
+}
+/*.blog {
+	display: flex;
+	justify-content: space-between;
+}*/
+.blog_item1 h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.blog-link{}
+.blog-link ul {
+	display: flex;
+}
+.blog-link ul li{}
+.blog-link ul li a {
+	display: block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding-right: 2.5rem;
+	transition:.5s;
+}
+.blog-link ul li a:hover{
+	color:#fff;
+}
+.blog-link ul li a i {
+	width: 25px;
+	height: 25px;
+	background: #3b4954;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 10px;
+}
+.blog-menu ul{
+	display:flex;
+}
+.blog-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.blog-menu li:last-child::after {
+  content: '';
+}
+.blog-menu ul li a{
+	display:inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding: 0 1rem;
+	transition:.5s;
+}
+.blog-menu ul li a span{
+	padding:0 .5rem;
+}
+.blog-menu ul li a:hover{
+	color:#fff;
+}
+   /***********************/
+  /**Start site area css**/
+ /***********************/
+
+.blog-single-item {
+	border-bottom: .1rem solid #c3c3c3;
+	padding-bottom: 3rem;
+	margin-bottom: 5rem;
+}
+.blog-img img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.blog-content h2{
+	font-size:2.4rem;
+	font-weight:400;
+	color:#02baab;
+}
+.blog-content p{
+	font-size:1.4rem;
+	font-weight:400;
+	color:#555555;
+}
+.blog-content ul{
+	display: flex;
+	justify-content:space-between;
+}
+.blog-content ul li a{
+	color:#02baab;
+	transition:.5s;
+}
+.blog-content ul li{
+	font-weight:300;
+}
+.blog-content ul li i{
+	color:#02baab;
+	padding-right:1rem;
+}
+.blog-content ul li a:hover{
+	color:#000;
+}
+
+.blog-bottom ul {
+	display: flex;
+	justify-content: center;
+}
+.blog-bottom ul li a{
+	color:#02baab;
+	display: inline-block;
+	padding: .5rem 1rem;
+	font-weight:400;
+	transition:.5s;
+}
+
+.blog-bottom ul li a:hover,
+.blog-bottom ul li a.active{
+	color:#000;
+	background:#eeee;
+}
+ 
+	/******************************************************/
+ /*--================= End Typography Page Css=========*/
+/******************************************************/
+
+	/**************************************************/
+ /*--================= Start Blog Page Css=========*/
+/**************************************************/
+
+			/*********************************/
+		 /**3. Start Blog-Grid Banner CSS**/
+		/*********************************/
+.blog-bg{
+	padding:13rem 0 3rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog_item2{
+	display: flex;
+	position: relative;
+	z-index: 11;
+	align-items: center;
+	justify-content: space-between;
+}
+.blog_item2 h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.masonry-menu ul{
+	display:flex;
+}
+.masonry-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.masonry-menu li:last-child::after {
+  content: '';
+}
+.masonry-menu ul li a{
+	display:inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding:0 1rem;
+	transition:.5s;
+}
+.masonry-menu ul li a span{
+	padding:0 .5rem;
+}
+.masonry-menu ul li a:hover{
+	color:#fff;
+}
+
+
+   /***********************/
+  /**Start grid area css**/
+ /***********************/
+.grid{
+	margin:5rem 0 1rem 0;
+	column-count:3;
+	column-gap: 3rem;
+}
+.grid-item{
+ 	display:inline-block;
+ 	margin-bottom:3rem;
+}
+.grid-img{
+	position:relative;
+	overflow: hidden;
+}
+.grid-img-overly{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	position:absolute;
+	left:0;
+	top:-100%;
+	bottom:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	visibility:hidden;
+	opacity:0;
+	transition:.5s;
+}
+.grid-img-overly a i {
+	color: #FFF;
+	width: 50px;
+	height: 50px;
+	background: #ffae00;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 50%;
+	line-height: 48px;
+}
+.grid-img:hover .grid-img-overly{
+	visibility:visible;
+	top:0;
+	opacity:1;
+	cursor:pointer;
+}
+.grid-img img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+	position:relative;
+}
+.grid-content{
+	padding:2rem;
+	border:1px solid #eee;
+	border-top:none;
+}
+/*border css*/
+ .item-1{
+ 	border-right:none;
+ }
+ .item-2{
+ 	border-top:1px solid #eee;
+ 	border-right:none;
+ }
+ .item-4,
+ .item-3{
+ 	border-left: none;
+ }
+.grid-content h3{
+	color:#02baab;
+	font-size:1.8rem;
+	font-weight:300;
+	padding-bottom: 2rem;
+}
+.grid-content p{
+	font-size: 1.4rem;
+	color:#555555;
+	font-weight:300;
+}
+.grid-content ul{
+	display: flex;
+	justify-content:space-between;
+}
+.grid-content ul li a{
+	display: block;
+	color:#555555;
+	font-size: 1.2rem;
+}
+.grid-content ul li a i {
+	width: 25px;
+	height: 25px;
+	background: #eeeeee;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 1rem;
+}
+.post-link{
+	margin-bottom:5rem;
+}
+.post-link a{
+	display: block;
+	color:#02baab;
+	font-size:1.4rem;
+}
+.post-link i{
+	color:#02baab;
+	font-size: 2rem;
+}
+
+	/************************************************/
+ /*--================= End Blog Page Css=========*/
+/************************************************/
+
+	/************************************************/
+ /*--============== Start Pages Page Css=========*/
+/************************************************/
+
+/*****************************************************/
+ /*--========= 3. Start Blog-Grid Banner CSS========--*/
+/*****************************************************/
+.blog-bg{
+	padding:13rem 0 5rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog_item{
+	position: relative;
+	z-index: 11;
+	display: flex;
+	flex-direction: column;
+}
+/*.blog{
+	display: flex;
+	justify-content: space-between;
+}*/
+.blog_item h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.blog-link{}
+.blog-link ul {
+	display: flex;
+}
+.blog-link ul li{}
+.blog-link ul li a {
+	display: block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding-right: 2.5rem;
+	transition:.5s;
+}
+.blog-link ul li a:hover{
+	color:#fff;
+}
+.blog-link ul li a i {
+	width: 25px;
+	height: 25px;
+	background: #3b4954;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 10px;
+}
+
+.blog-menu ul{
+	display:flex;
+}
+.blog-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.blog-menu li:last-child::after {
+  content: '';
+}
+.blog-menu ul li a {
+	display: inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	transition: .5s;
+	padding: 0 1rem;
+}
+.blog-menu ul li a:hover{
+	color:#fff;
+}
+	  /*************************/
+	 /*Start Blogpost Area Css*/
+	/*************************/
+.blog-image img{
+	width:100%;
+	height:auto;
+}
+.row-padding{
+	padding:5rem 0;
+}
+.blog-content-1 p,
+.blog-content-2 p,
+.blog-p p{
+	font-size:1.4rem;
+	font-weight:300;
+	color:#474e52;
+	line-height:2.8rem;
+}
+.blog-images-3 {
+	display: flex;
+	flex-wrap: wrap;
+	grid-column-gap: 22px;
+	margin:3rem 0;
+}
+.imgase-3{
+	width:230px;
+	height:155px;
+}
+.imgase-3 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.blog-content-1 h5,
+.blog-content-2 h5{
+	padding: 1rem 0;
+}
+.blog-content-1 p:nth-child(3) {
+	font-size: 24px;
+	font-weight: 700;
+	color: #c69c6d;
+	position: relative;
+	line-height: 39px;
+	padding-left: 44px;
+	margin:3rem 0;
+}
+.blog-content-1 p:nth-child(3) span{
+	font-size:1.2rem;
+	display:block;
+}
+.blog-content-1 p:nth-child(3)::after {
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 100%;
+	background: #eeeeee;
+	left: 24px;
+	top: 0;
+}
+.blog-p {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 3rem;
+}
+/*single right aarea 1*/
+.blogpost-content ul {
+	display: flex;
+	flex-direction: column;
+}
+.blogpost-content ul li {
+	padding: 1rem 0;
+	border-bottom: 1px solid #eee;
+}
+.blogpost-content ul li:last-child{
+	border-bottom:none;
+}
+.blogpost-content ul li a{
+	font-size:1.5rem;
+	font-weight:300;
+	color:#02baab;
+}
+.blogpost-content ul li a i {
+	color: #eee;
+	font-size: 20px;
+	transform: rotate(-90deg);
+	position: relative;
+	top: 2px;
+	margin-right: 1.5rem;
+}
+.blogpost-content ul li a:hover,
+.blogpost-content ul li a.active{
+	color:#6d0fae;
+}
+.blogpost-content-t {
+	margin-top: 1rem;
+}
+.blogpost-content-t ul li {
+	display: flex;
+	border-bottom: 1px solid #eee;
+	padding: 1rem 0;
+}
+.blogpost-content-t ul li:last-child{
+	border-bottom:none;
+}
+.blogpost-content-t ul li i {
+	color: #c3c3c3;
+	font-size: 20px;
+	flex: 0 0 3.7rem;
+	position: relative;
+	top: 8px;
+}
+.blogpost-content-t ul li a{
+	font-size:1.5rem;
+	font-weight:300;
+	color:#02baab;
+}
+.blogpost-content-t ul li span{
+	color:#3b4954;
+}
+
+/*-------------------------
+		single-right-area 
+------------------------2*/
+.single-title h5 {
+	padding: 1rem 0 2rem 0;
+}
+.single-right-area .owl-prev,
+.single-right-area .owl-next{
+	font-size: 36px !important;
+	color:#11b5bd !important;
+	background:transparent !important;
+	outline:none;
+}
+
+/*--------------------
+			tag menu 
+-----------------------*/
+.tag-cloud {
+	margin-top: 2rem;
+}
+.tag-title {
+	padding: 1rem 0;
+}
+.tag-menu{}
+.tag-menu ul{
+	display:flex;
+	flex-wrap: wrap;
+}
+.tag-menu ul li {
+	margin: 1.5rem 0;
+}
+.tag-menu ul li a {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #02baab;
+	padding:1rem 1.5rem;
+	border: 1px solid #02baab;
+	margin-right: .5rem;
+	transition:.5s;
+}
+.tag-menu ul li a:hover,
+.tag-menu ul li a.active{
+	color:#FFF;
+	background:#02baab;
+}
+
+
+/*blogpost-footer-top Css*/
+.tag-list {
+	display: flex;
+}
+.tag-list span{
+	color:#3b4954;
+	font-size:1.5rem;
+	font-weight:300;
+}
+.tag-list span i{
+	color:#02baab;
+	margin-right:1rem; 
+}
+.tag-list ul {
+	display: flex;
+}
+.tag-list ul li a{
+	font-size:1.5rem;
+	font-weight:300;
+	color:#02baab;
+	padding:0 1rem;
+}
+.tag-list ul li a:hover,
+.tag-list ul li a.active{
+	color:#6d0fae;
+}
+.blogpost-footer-icon {
+	margin-top: 2.5rem;
+}
+.icon ul {
+	display: flex;
+	align-items:center;
+}
+.icon ul li{
+	margin-right:.5rem;
+}
+.icon ul li a i {
+	width: 35px;
+	height: 35px;
+	background: #305891;
+	text-align: center;
+	color: #FFF;
+	line-height: 3.5rem;
+	font-size: 2rem;
+}
+.icon ul li:nth-child(2) a i{
+	background:#2ca8d2;
+}
+.icon ul li:nth-child(3) a i{
+	background:#738a8d;
+}
+.icon ul li:nth-child(4) a i{
+	background:#738a8d;
+}
+.icon ul li:nth-child(5) a i{
+	background:#f8694d;
+}
+.icon ul li span {
+	border: 1px solid red;
+	padding: .8rem .5rem;
+	font-weight: 600;
+	border-radius:5px;
+}
+ /**related post**/
+ .related-post{
+ 	padding:2rem 0 ;
+ }
+ .related-post h5 {
+	padding: 1.5rem 0;
+}
+ .relat-items {
+	display: flex;
+	justify-content: space-between;
+}
+.rel-icon i{
+	font-size:2rem;
+	color:#3b4954;
+}
+.rel-content h5 {
+	font-size: 1.2rem;
+	color: #3b4954;
+	font-weight: 300;
+	padding: .5rem 0;
+}
+.rel-content p {
+	font-size: 1.2rem;
+	color: #02baab;
+	line-height: 18px;
+}
+
+ 		/**************************/
+       /**start comment area css**/
+      /**************************/
+.comment-area{
+	padding:3rem 0 ;
+	background:#dae8f1;
+}
+.comment h5{
+	font-size:18px;
+	font-weight:400;
+	color:#3b4954;
+	padding:1rem 0;
+}
+.contact-form textarea{
+	width:100%;
+	padding: .5rem 1rem;
+	outline: none;
+	border: none;
+	border-top: 1px solid #afc2d0;
+	font-size: 14px;
+	font-weight:400;
+	resize:none;
+}
+.contact-form {
+	width: 100%;
+	max-width: 90%;
+}
+.contact-form input {
+	width: 100%;
+	padding: .5rem 1rem;
+	outline: none;
+	border: none;
+	border-top: 1px solid #afc2d0;
+	font-size: 14px;
+	font-weight:400;
+	margin-bottom:2rem;
+}
+.contact-form label{
+	font-size:1.4rem;
+	font-weight:400;
+	color:#3b4954;
+}
+.button input {
+	background: none;
+	border: 3px solid #02baab;
+	width: 100%;
+	max-width: 17%;
+	padding: .5rem 0;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+}
+/*comment section*/
+.com-head h5{
+	font-size:18px;
+	font-weight:400;
+	color:#3b4954;
+	padding:1rem 0;
+}
+.com-item1,
+.com-item2,
+.com-item3{
+	background: #fff;
+	padding: 3rem;
+	border: 5px solid #eee;
+	margin-bottom: 3rem;
+}
+.com-item1 p,
+.com-item2 p,
+.com-item3 p{
+	font-size:1.4rem;
+	font-weight:300;
+	color:#3b4954;
+	line-height:22px;
+	padding-top:1rem;
+}
+.com-item-option {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #c6d4d7;
+}
+.com-le h5 a,
+.com-ri h5 a{
+	font-size:1.4rem;
+	font-weight:400;
+	color:#02baab;
+}
+.com-ri h5 a:hover,
+.com-le h5 a:hover{
+	cursor:pointer;
+}
+.com-le p{
+	font-size:1.2rem;
+	font-weight:300;
+	color:#85939f;
+}
+
+	/************************************************/
+ /*--================ End Pages Page Css=========*/
+/************************************************/
+
+	/************************************************/
+ /*--============ Start Element Page Css=========*/
+/************************************************/
+
+/*****************************************************/
+ /*--========= 3. Start Blog-Grid Banner CSS========--*/
+/*****************************************************/
+.blog-bg{
+	padding:13rem 0 5rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog-item{
+	position:relative;
+	z-index:11;
+}
+.blog {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.blog-left-title h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.blog-menu ul{
+	display:flex;
+}
+.blog-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.blog-menu li:last-child::after {
+  content: '';
+}
+.blog-menu ul li a {
+	display: inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	transition: .5s;
+	padding: 0 1rem;
+}
+.blog-menu ul li a:hover{
+	color:#fff;
+}
+	  /*************************/
+	 /*Start Blogpost Area Css*/
+	/*************************/
+
+.sumary p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #3b4954;
+	padding: 31px 0;
+}
+.filter ul{
+	display: flex;
+}
+.filter ul li {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin:0 1rem .5rem 0;
+	padding: .5rem .5rem;
+	cursor:pointer;
+	color: #02baab;
+	display:inline-block;
+	position:relative;
+}
+.filter ul li:hover .filter ul li::after {
+	content: "";
+	position: absolute;
+	color: #3b4954;
+	width:50px;
+	height:5px;
+	background:#3b4954 ;
+	left: 4px;
+	top: -9px;
+	margin: auto;
+}
+
+.filter ul li:first-child{
+	padding-left:0;
+	margin-left:0;
+}
+
+.portfolio {
+	display: grid;
+	grid-template-columns: repeat(3, calc(33.33% - 13px));
+	grid-gap: 20px;
+}
+.item {
+	position: relative;
+	overflow: hidden;
+}
+.overly-item {
+	position: absolute;
+	left: 0;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	opacity: 0;
+	transition:.5s;
+}
+.overly-item ul li a {
+	width: 40px;
+	height: 40px;
+	background: #02baab;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50%;
+	color: #FFF;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+.item:hover .overly-item{
+	opacity:1;
+	visibility:visible;
+	top:0;
+	cursor: pointer;
+}
+.item-img img{
+	width:100%;
+	height:auto;
+}
+.item-content {
+	background: #3d3d3d;
+	padding: 15px 20px;
+}
+.item-content p{
+	font-size:1.1rem;
+	font-weight:300;
+	color:#02baab;
+	margin:0;
+}
+
+/*more button css*/
+.more-button{
+	margin:20px 0;
+}
+.more-button a {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size:1.8rem;
+	color: #02baab ;
+}
+.more-button a i{
+	font-size:3rem;
+}
+	/************************************************/
+ /*--============== End Element Page Css=========*/
+/************************************************/
+
+	/************************************************/
+ /*--========== Start Ecommerce Page Css=========*/
+/************************************************/
+
+/*****************************************************/
+ /*--========= 3. Start Blog-Grid Banner CSS========--*/
+/*****************************************************/
+.blog-bg{
+	padding:13rem 0 5rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog-item{
+	position:relative;
+	z-index:11;
+}
+.blog {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.blog-left-title h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.blog-menu ul{
+	display:flex;
+}
+.blog-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.blog-menu li:last-child::after {
+  content: '';
+}
+.blog-menu ul li a {
+	display: inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	transition: .5s;
+	padding: 0 1rem;
+}
+.blog-menu ul li a:hover{
+	color:#fff;
+}
+	  /*************************/
+	 /*Start Blogpost Area Css*/
+	/*************************/
+
+.sumary p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #3b4954;
+	padding: 31px 0;
+}
+.filter ul{
+	display: flex;
+}
+.filter ul li {
+	font-size: 1.5rem;
+	font-weight: 300;
+	margin:0 1rem .5rem 0;
+	padding: .5rem .5rem;
+	cursor:pointer;
+	color: #02baab;
+	display:inline-block;
+	position:relative;
+}
+/*.filter ul li:hover .filter ul li::after {
+	content: "";
+	position: absolute;
+	color: #3b4954;
+	width:50px;
+	height:5px;
+	background:#3b4954 ;
+	left: 4px;
+	top: -9px;
+	margin: auto;
+}*/
+.filter ul li:first-child{
+	padding-left:0;
+	margin-left:0;
+}
+
+.portfolio_area {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+}
+.item {
+	position: relative;
+	overflow: hidden;
+}
+.overly-item {
+	position: absolute;
+	left: 0;
+	top: -100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	opacity: 0;
+	transition:.5s;
+}
+
+.overly-item ul li a {
+	width: 40px;
+	height: 40px;
+	background: #02baab;
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50%;
+	color: #FFF;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+.item:hover .overly-item{
+	opacity:1;
+	visibility:visible;
+	top:0;
+	cursor: pointer;
+}
+.item-img img{
+	width:100%;
+	height:auto;
+}
+.item-content {
+	background: #3d3d3d;
+	padding: 15px 20px;
+}
+.item-content p{
+	font-size:1.1rem;
+	font-weight:300;
+	color:#02baab;
+	margin:0;
+}
+
+/*-------------------
+		more button css
+--------------------*/
+.more-button{
+	margin:20px 0;
+}
+.more-button a {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size:1.8rem;
+	color: #02baab ;
+}
+.more-button a i{
+	font-size:3rem;
+}
+	/************************************************/
+ /*--============ End Ecommerce Page Css=========*/
+/************************************************/
+
+	/************************************************/
+ /*--=========== Start MegaMenu Page Css=========*/
+/************************************************/
+
+/*****************************************************/
+ /*--========= 3. Start Blog-Grid Banner CSS========--*/
+/*****************************************************/
+.blog-bg{
+	padding:13rem 0 5rem 0;
+	position:relative;
+}
+.blog-bg:before{
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background:rgba(0,0,0,.5);
+}
+.blog-item{
+	position:relative;
+	z-index:11;
+}
+.blog {
+	display: flex;
+	justify-content: space-between;
+}
+.blog-item h2{
+	font-size:3.6rem;
+	color:#FFF;
+	font-weight:300;
+	padding:2rem 0 ;
+}
+.blog-link{}
+.blog-link ul {
+	display: flex;
+}
+.blog-link ul li{}
+.blog-link ul li a {
+	display: block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding-right: 2.5rem;
+	transition:.5s;
+}
+.blog-link ul li a:hover{
+	color:#fff;
+}
+.blog-link ul li a i {
+	width: 25px;
+	height: 25px;
+	background: #3b4954;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 25px;
+	margin-right: 10px;
+}
+.blog-menu ul{
+	display:flex;
+}
+.blog-menu li::after {
+  content: ' / ';
+  color:#85939f;
+}
+.blog-menu li:last-child::after {
+  content: '';
+}
+.blog-menu ul li a{
+	display:inline-block;
+	font-size: 1.2rem;
+	color: #85939f;
+	padding: 0 1rem;
+	transition:.5s;
+}
+.blog-menu ul li a span{
+	padding:0 .5rem;
+}
+.blog-menu ul li a:hover{
+	color:#fff;
+}
+   /***********************/
+  /**Start site area css**/
+ /***********************/
+ .project-crousel {
+	margin: 50px 0;
+}
+.crousel-items{
+	position:relative;
+}
+.crousel-items .owl-prev,
+.crousel-items .owl-next{
+	color:#FFF !important;
+	background:#ffae00 !important;
+	outline:none;
+	width:30px;
+	height:30px;
+	transition:.5s;
+}
+.crousel-items .owl-prev{
+	position:absolute;
+	top:50%;
+	left:20px;
+	transform: translateY(-95%);
+}
+.crousel-items .owl-prev:hover,
+.crousel-items .owl-next:hover{
+	background:#FFF !important;
+	color:#ffae00 !important;
+}
+.crousel-items .owl-next{
+	position:absolute;
+	top:50%;
+	right:20px;
+	transform: translateY(-95%);
+}
+.crou-item img{
+	width: 100%;
+}
+
+
+/*---------------------
+			right area
+----------------------*/
+.crousel-right-items{
+	position:relative;
+}
+.crousel-right-items .owl-prev,
+.crousel-right-items .owl-next{
+	color:#ffae00 !important;
+	background:transparent !important;
+	outline:none;
+	width:30px;
+	height:30px;
+	transition:.5s;
+	border: 1px solid #ffae00 !important;
+}
+.crousel-right-items .owl-prev{
+	position:absolute;
+	top:4%;
+	left:0;
+	transform: translateY(-95%);
+}
+.crousel-right-items .owl-prev:hover,
+.crousel-right-items .owl-next:hover{
+	background:#ffae00 !important;
+	color:#FFF !important;
+}
+.crousel-right-items .owl-next {
+	position: absolute;
+	top: 4%;
+	right: 65%;
+	transform: translateY(-95%);
+}
+.crou-right {
+	padding-top: 4rem;
+}
+.crou-content1 a{
+	font-size:1.4rem;
+	font-weight:300;
+	color:#555555;
+}
+.crou-content1 a i{
+	margin-right:.5rem;
+}
+.crou-content1 h3 {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #ffc600;
+	padding: 2rem 0;
+}
+.crou-content1 p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: #3b4954;
+	line-height: 28px;
+}
+
+/*crou-content2*/
+
+.crou-content2 h3{
+	font-size: 1.4rem;
+	font-weight:900;
+	color: #3b4954;
+	padding: 1rem 0;
+ }
+ .crou-content2 ul li{
+ 	font-size:1.4rem;
+ 	font-weight:300;
+ 	color:#3b4954;
+ }
+ .crou-content2 ul li i{
+ 	color:#ffae00;
+ 	margin-right:1rem;
+ }
+/*button*/
+
+.buttom{
+	margin-top:2rem;
+}
+.footer-btn {
+	border: 3px solid #ffae00;
+	font-size: 1.4rem;
+	padding: .8rem 1.5rem;
+	display: inline-block;
+	color: #ffae00;
+}
+.footer-btn:hover{
+	color:#ffae00;
+}
+
+/*--------------------
+				footer icon
+-----------------------*/
+.footer-icon ul{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-icon ul li{
+	margin-right:1rem;
+}
+.footer-icon ul li:last-child{
+	margin-right:0;
+}
+.footer-icon ul li span {
+	border: 2px solid #cbcbcb;
+	padding: 10px 20px;
+	font-size:1.4rem;
+	font-weight:300;
+}
+.footer-icon ul li a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	color: #FFF;
+	text-align: center;
+	line-height: 39px;
+	font-size: 22px;
+}
+.facebook{
+	background:#315c96;
+}
+.twitter{
+	background:#2eb0db;
+}
+.envelop{
+	background:#779093;
+}
+.pinterest{
+	background:#d22228;
+}
+.plus{
+	background:#ff6e50;
+}
+
+	/**********************************************/
+ /*--=========== End MegaMenu Page Css=========*/
+/**********************************************/
+
+
+
+
+
+
+
+
+
+  /************************************************************/
+ /*--================= 12. Start Footer area css=============*/
+/************************************************************/
+.footer-area{
+	background:#1f2a32;
+	padding-bottom:4rem;
+}
+.footer-map iframe{
+	width:100%;
+	height:160px;
+}
+.footer-item{
+	padding-top:6rem;
+}
+.footer-item h4{
+	color:#FFF;
+	padding-bottom:4rem;
+}
+.footer-colors{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.footer-colors span{
+	background:red;
+	width:100%;
+	height:1rem;
+}
+.footer-colors span:nth-child(1){
+	background: #7827a9;
+}
+.footer-colors span:nth-child(2){
+	background:#0c8fcc;
+}
+.footer-colors span:nth-child(3){
+	background:#de1c5c;
+}
+.footer-colors span:nth-child(4){
+	background:#ffae00;
+}
+.footer-item-1 ul li a{
+	font-size:1.2rem;
+	font-weight:300;
+	color:#85939f;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom:3rem;
+
+}
+.footer-item-1 ul li a i {
+	font-size: 1.8rem;
+	color: #02baab;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 2.7rem;
+	        flex: 0 0 2.7rem;
+}
+.footer-item-1 ul li a span b{
+	color:#FFF;
+}
+/*footer-item-2*/
+.footer-item-2 ul li{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	margin-bottom:3.5rem;
+}
+.footer-item-2 ul li i{
+	font-size: 1.8rem;
+	color: #02baab;
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 0 2.7rem;
+	        flex: 0 0 2.7rem;
+}
+.footer-item-2 ul li span{
+	color:#FFF;
+	font-size:1.2rem;
+}
+.footer-item-2 ul li span a{
+	color:#02baab;
+}
+.footer-item-2 ul li span span{
+	color:#85939f;
+	font-size:1.2rem;
+	display:block;
+}
+/*footer-item-3*/
+.footer-item-3 ul li a {
+	color: #FFF;
+	margin-bottom: 2rem;
+	display: block;
+}
+.footer-item-3 ul li a i {
+	width: 55px;
+	height: 55px;
+	background: #3b5998;
+	font-size: 33px;
+	line-height: 55px;
+	text-align: center;
+	margin-right:20px;
+}
+.footer-item-3 ul li:nth-child(2) a i{
+	background:#00a0d1;
+}
+.footer-item-3 ul li:nth-child(3) a i{
+	background:#c4302b;
+}
+.footer-item-3 ul li:nth-child(4) a i{
+	background:#825c48;
+}
+.footer-item-3 ul li:nth-child(5) a i{
+	background:#a30834;
+}
+/*footer-item-4*/
+.f-sigle-post{
+	margin-bottom:3rem;
+}
+.f-sigle-post h5{
+	font-size:1.4rem;
+	color:#FFF;
+	margin-bottom:.5rem;
+}
+.f-sigle-post p a{
+	color:#02baab;
+	font-size:1.2rem;
+	line-height:25px;
+}
+/*Copy right*/
+.copyright{}
+.copyright p{
+	color:#FFF;
+	font-size:1.2rem;
+}
+.back-top a{
+	font-size: 1.2rem;
+}

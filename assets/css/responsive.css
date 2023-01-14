@@ -1,0 +1,132 @@
+@media all and (min-width: 991px) {
+	.menu ul {
+		display : flex;
+	}
+}
+
+@media all and (max-width: 991px) {
+	.menu ul {
+		justify-content : center;
+		flex-direction : column;
+		display : none;
+		padding : 1rem 0;
+	}
+	.menu ul li a {
+		padding : 1rem 1rem;
+		border : none;
+	}
+	.menu ul {
+		position : absolute;
+		z-index : 99;
+		width : 71%;
+		background : #2c3e50;
+	}
+	.header-area {
+		padding : 2rem 0;
+	}
+	.logo {
+		display : flex;
+		align-items : center;
+		justify-content : space-between;
+	}	
+	.nav-icon {
+		display : block;
+	}
+	.nav-icon i {
+		color : #FFF;
+		font-size : 25px;
+		border : #FFF solid 1px;
+		display : inline-block;
+		padding : 0.5rem 0.8rem;
+		border-radius:.3rem;
+	}
+	.nav-icon i:hover {
+		background : #02baab;
+	}
+	.hero {
+		flex-direction : column;
+		text-align : center;
+	}
+	.hero h1 {
+		margin-bottom : 2rem;
+	}
+	.single-knob-item::after {
+		display : none;
+	}
+	.sigle-team {
+		margin-bottom : 3rem;
+	}
+	.blog-link ul li a{
+		padding-right: .7rem
+	}
+	.blog-menu ul li a{
+		padding:0 .5rem
+	}
+}
+
+@media all and (max-width: 768px) {
+	.single-banner-item {
+		padding : 15rem 0 15rem 0;
+	}
+	.single-testimonil h1 {
+		width : 90%;
+	}
+	.sigle-blog-item, .single-knob-item {
+		margin-bottom : 3rem;
+	}
+	.copyright {
+		text-align : center;
+		margin-bottom : 2rem;
+	}
+	.back-top {
+		text-align : center !important ;
+	}
+	.blog-menu ul,
+	.blog-link ul{
+		display:flex;
+		flex-direction:column;
+
+	}
+	.blog-link ul li {
+	margin-bottom: 1rem;
+	}
+	.blog-menu ul li a span {
+	display: none;
+	}
+	.blog-menu ul li a{
+		padding:.3rem 0;
+	}
+	.blog-item{
+		flex-direction: column;
+	}
+	.grid{
+		column-count:1;
+	}
+}
+
+@media all and (max-width: 576px) {
+	h1 {
+		font-size : 2.8rem;
+	}
+	.buttons ul {
+		flex-direction : column;
+	}
+	.buttons ul li {
+		margin : 0.7rem 0;
+	}
+	.buttons {
+		margin-top : 5rem;
+	}
+	.top-right-link ul li a {
+		margin : 0 18px;
+	}
+	.month p {
+		width : 90%;
+	}
+	.blog-bg{
+		padding:10rem 0 5rem 0
+	}
+	.blog-item h2{
+		text-align:center;
+	}
+}
